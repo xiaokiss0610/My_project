@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>中国各大城市和县区快速选择js插件</title>
+	<link rel="stylesheet" href="css/cityselect.css">
+</head>
+
+<body>
+    <div class="htmleaf-content">
+        <h3 style="text-align: center;margin-top: 15px;">在下面的输入框中输入城市的名称：</h3>
+        <div class="demo" style="text-align:center; margin:20px;">
+            <!-- 在输入框加入id -->
+            <input type="text" style="width: 200px;height: 30px;" class="cityinput" id="citySelect" placeholder="请输入目的地">
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/cityselect.js"></script>
+    <script type="text/javascript">
+        var test = new Vcity.CitySelector({
+            input: 'citySelect'
+        });
+    </script>
+</body>
+
+</html>
